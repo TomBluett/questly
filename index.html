@@ -13,19 +13,46 @@
 <div class="well col-sm-6 col-sm-offset-3 col-xs-12">
   <form role="form">
 
-    <div class="form group">
+    <div class="form-group">
       <label for="name">What is your name?</label><br>
-      <input type+"text" name="name" class="form-control"
+      <input type="text" name="name" class="form-control">
     </div>
 
+    <div class="radio">
+      <p><strong>What is your quest?</strong></p>
+
+      <label>
+        <input type="radio" name="quest"
+        value="gather gold">
+        To gather gold
+      </label>
+    </div>
+
+    <div class="radio">
+      <label>
+        <input type="radio" name="quest"
+        value="live forever">
+        live forever
+      </label>
+    </div>
+
+    <div class="radio">
+      <label>
+        <input type="radio" name="quest"
+        value="acquire power">
+        acquire power
+      </label>
+    </div>
+
+
+
     <div class="form-group">
-      <label for="quest">What is your quest?</label><br>
-      <input type+"text" name="quest" class="form-control"
+      <label for="color">What is your favorite color?</label><br>
+      <input type="text" name="color" class="form-control">
     </div>
 
     <input type="submit" value="Do it!" class="btn btn-default">
-</form>
-
+  </form>
 </div>
 
 <div id="story" class="well col-sm-6 col-sm-offset-3 col-xs-12"></div>
